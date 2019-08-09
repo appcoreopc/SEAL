@@ -1,5 +1,13 @@
 # Microsoft SEAL
 
+> To build on Windows, please make sure you have VS 2017 / VS2019 installed. 
+> Install C++ runtime component if you have not done so. 
+> Then you might need to set target -> to version 10.0 
+
+Right click Seal (C# project) and Rebuild
+
+To run the samples, right click on SEALNetExamples, then select "Set as Startup Project", then press F5. 
+
 Microsoft SEAL is an easy-to-use open-source ([MIT licensed](LICENSE)) homomorphic encryption library developed by the Cryptography Research group at Microsoft. Microsoft SEAL is written in modern standard C++ and has no external dependencies, making it easy to compile and run in many different environments. For more information about the Microsoft SEAL project, see [sealcrypto.org](https://www.microsoft.com/en-us/research/project/microsoft-seal).
 
 This document pertains to Microsoft SEAL version 3.3. Users of previous versions of the library should look at the [list of changes](Changes.md).
