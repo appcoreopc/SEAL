@@ -1,7 +1,8 @@
 # Microsoft SEAL
 
-> To build on Windows, please make sure you have VS 2017 / VS2019 installed. 
+To build on Windows, please make sure you have VS 2017 / VS2019 installed. 
 > Install C++ runtime component if you have not done so. 
+
 > Then you might need to set target -> to version 10.0 
 
 Right click Seal (C# project) and Rebuild
